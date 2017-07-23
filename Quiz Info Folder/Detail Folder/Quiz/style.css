@@ -1,0 +1,142 @@
+                                          /* Quiz Application */
+/* Body Styling */
+body {
+    background-image: url("Images/Cover.jpg");
+     /* background-repeat: no-repeat; */
+     /* background-size: cover; */
+}
+
+/* Main Container Styling */
+#Quiz_Container {
+    border: 8px double darkblue;
+    height: 460px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+/* Header Styling */
+#Header {
+    text-align: center;
+    color: white;
+    padding: 20px 0px 10px 0px; 
+    font-size: 40px;
+    width: 500px;
+    margin: auto;
+    border-bottom: 2px solid white;
+}
+
+/* Question Box Styling */
+#Question {
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 20px;
+}
+
+/* Choics Option Styling */
+.option {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    background-color: white;
+    width: 570px;
+    margin: 30px 0px 10px 10px;
+    padding: 10px 0px 10px 15px;
+    display: inline-block; 
+    border-radius: 20px;
+}
+
+/* When hovering on options */
+.option:hover {
+    color: black;
+    background-color: lightskyblue;
+}
+
+/* Button Styling */
+#NextButton {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 115px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1060px;
+}
+
+/* When hovering on Button */
+#NextButton:hover {
+    color: navy; 
+    background-color: dodgerblue;
+    border: 2px solid navy;
+}
+
+/* Styling for Paragraph */
+p {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+/* Styling for Timer */
+#timer {
+    margin-left: 640px;
+}
+
+/* Styling for Result Container */
+#Result { 
+    border-bottom: 5px solid navy; 
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 1100px;
+    margin: auto; 
+    margin-top: 100px; 
+    color: darkblue;
+    border-radius: 10px;
+}
+
+/* Position Container Styling */
+#Position { 
+    color: darkblue;
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px; 
+    border-bottom: 5px solid navy; 
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Log Out Button Styling */
+#logOutButton {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+    background-color: dodgerblue;
+    outline: 0;
+    margin-top: 200px;
+    margin-left: 1185px;
+}
+
+/* When hovering */
+#logOutButton:hover {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+                                /* Quiz Application Styling Complete */

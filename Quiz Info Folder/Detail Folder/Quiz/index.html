@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> "Quiz Application" </title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body onload="getTimer ()">
+    <!-- Main Cintainer -->
+    <div id="Quiz_Container" class="container">
+
+        <!-- Header -->
+        <h1 id="Header"> JavaScript Quiz </h1>
+
+        <!-- Question -->
+        <div id="Question" class="question"></div>
+
+        <!-- Options -->
+        <label class="option"> <input type="radio" name="option" value="1"> <span id="Option1"></span> </label>
+        <label class="option"> <input type="radio" name="option" value="2"> <span id="Option2"></span> </label>
+        <label class="option"> <input type="radio" name="option" value="3"> <span id="Option3"></span> </label>
+        <label class="option"> <input type="radio" name="option" value="4"> <span id="Option4"></span> </label>
+
+        <!-- Paragraph -->
+        <p> Total 25 Questions. <span id="timer"> Time remaining :- <span id="time"></span> </span> </p>
+
+        <!-- Button -->
+        <button id="NextButton" class="nextButton" onclick="loadNextQuestion ()"> Next Question </button>
+    </div>
+
+    <!-- Result Container -->
+    <div id="Result" class="containerResult" style="display:none;"></div>
+    <div id="Position" style="display:none;"></div>
+    <button onclick="logOut()" id="logOutButton" style="display:none;"> LogOut </button>
+
+    <script src="questions.js"></script>
+    <script src="quiz-script.js"></script>
+</body>
+
+</html>

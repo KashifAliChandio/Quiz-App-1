@@ -1,0 +1,60 @@
+                                 /* Information for Quiz Application */
+/* Body Styling */
+body {
+    background-image: url("Images/JavaScript.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main Container Styling */
+#Container {
+    height: 410px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    border: 8px double darkblue;
+    background-color: lightskyblue;
+    opacity: 0.9;
+}
+
+/* Header Styling */
+h1 {
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* Middle Header Styling */
+h2 {
+    color: darkblue;
+}
+
+/* Order List Styling */
+ol {
+    color: darkblue;
+    padding-top: 2px;
+}
+
+/* Footer Styling */
+p {
+    color: darkblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+     padding-top: 30px; 
+}
+
+/* Link Element Styling */
+a {
+    color: darkblue;
+}
+
+/* When hovering on link */
+a:hover {
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+                                             /* Styling Completed */
